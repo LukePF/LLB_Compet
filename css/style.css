@@ -1,0 +1,362 @@
+/*-----------common------------*/
+
+html {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+
+body {
+	display: block;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	top: 0;
+}
+
+#window_limited {
+	display: block;
+	max-height: 640px;
+	min-height: 480px;
+	max-width: 480px;
+	min-width: 280px;
+	margin: 0 auto;
+	-webkit-box-shadow: 2px 2px 2px #BDBDBD;
+	box-shadow: 2px 2px 2px #BDBDBD;
+}
+
+#app_title {
+	float: left;
+	width: 100%;
+	height: 63px;
+	line-height: normal;
+	border-bottom: 1px solid #BDBDBD;
+	-webkit-box-shadow: 2px 0 2px #BDBDBD;
+	box-shadow: 2px 0 2px #BDBDBD;
+	z-index: 9999;
+	
+	margin-bottom: 2px;
+}
+
+#app_content {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#app_footer {
+	display: block;
+	height: 16px;
+	float: left;
+	width: 100%;
+	background-color: #BDBDBD;
+	font-size: 0.7em;
+	line-height: 15px;
+}
+
+h2 {
+	float: left;
+	display: block;
+	margin: 10px 0 10px 20px;
+	;
+	color: #4CAF50;
+}
+
+h3 {
+	color: #424242;
+}
+
+h4 {
+	color: #424242;
+}
+
+.headline {
+	display: block;
+	float: left;
+	height: 56px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.content {
+	float: left;
+	width: 100%;
+	background-color: transparent;
+	overflow-x: hidden;
+}
+
+#app_footer p {
+	float: left;
+	margin: 0 auto;
+	margin-left: 12px;
+}
+
+
+/*-------------title line-----------------*/
+
+.titleline {
+	display: block;
+	float: left;
+	width: 100%;
+	height: 100%;
+	line-height: normal;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#titleline {
+	float: left;
+	display: inline-block;
+	position: relative;
+	width: 220px;
+	left: 50%;
+	margin-left: -120px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#pic {
+	display: inline-block;
+	float: left;
+	position: relative;
+	left: 50%;
+	margin-top: 10px;
+	width: 36px;
+	height: 36px;
+	line-height: normal;
+}
+
+.cont_box {
+	margin: 8px 16px 8px 16px;
+	width: calc(100% - 34px);
+	height: auto;
+}
+
+
+/*----------db part style---start------------*/
+
+.secondTitle {
+	display: block;
+	float: left;
+	height: 48px;
+	widows: 320px;
+	vertical-align: middle;
+}
+
+.pic2 {
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+	width: 36px;
+	height: 36px;
+	margin-left: 10px;
+	line-height: normal;
+}
+
+.sech4 {
+	float: left;
+	vertical-align: middle;
+}
+
+#db_box {
+	float: left;
+	width: 100%;
+}
+
+#dbno_bar {
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+#decialno {
+	display: block;
+	float: left;
+	position: relative;
+	width: 90px;
+	height: 60px;
+	left: 50%;
+	margin-left: -45px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 4.8rem;
+	border-bottom: 1px solid #4CAF50;
+	border-radius: 5px;
+}
+
+#decialno span {
+	width: 80px;
+	font-size: 2.2rem;
+}
+
+#analyser_box {
+	float: left;
+	margin: auto 0;
+	position: relative;
+	left: 50%;
+	margin-left: -160px;
+}
+
+#canvas {
+	margin: 8px 20px 8px 20px;
+	background-color: #EEEEEE;
+}
+
+#db_btn_bar {
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+#only_btn {
+	display: block;
+	float: left;
+	position: relative;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	left: 50%;
+	margin-left: -84px;
+	background-color: white;
+	width: 168px;
+	height: 32px;
+	border: 1px solid #4CAF50;
+	border-radius: 3px;
+	font-size: 0.8rem;
+	font-weight: 500;
+	color: #4CAF50;
+}
+
+#db_lvl_desc {
+	display: block;
+	float: left;
+	vertical-align: middle;
+	text-align: center;
+	border: 1px dashed #EEEEEE;
+	border-radius: 1px;
+}
+
+#text_fit {
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+#db_lvl_desc p {
+	word-break: break-all;
+	font-size: 0.9rem;
+	font-family: sans-serif;
+}
+
+.lvl_font {
+	color: #4CAF50;
+	font-size: 1.0rem;
+	font-weight: 600;
+}
+
+
+/*----------db part style---end------------*/
+
+
+/*----------music part style---start------------*/
+
+#audio_box {
+	float: left;
+	border: 1px solid #EEEEEE;
+	border-radius: 1px;
+}
+
+#play_status {
+	margin-top: 4px;
+	margin-left: calc(50% - 110px);
+	width: 220px;
+	height: 32px;
+	height: auto;
+}
+
+#audio_box span {
+	width: calc(100% - 20px);
+	overflow: hidden;
+}
+
+#player {
+	margin-left: calc(50% - 120px);
+	margin-top: 4px;
+	margin-bottom: 4px;
+	width: 240px;
+	height: 32px;
+}
+
+#submit_bar {
+	float: left;
+	background-color: white;
+}
+
+#submit_text {
+	margin: 10px;
+	margin-left: calc(50% - 120px);
+	display: inline-block;
+	font-size: 0.7rem;
+	width: 180px;
+	color: #757575;
+	height: 23px;
+	border: 1px solid #EEEEEE;
+	border-radius: 1px;
+}
+
+#submit_btn {
+	margin: 10px;
+	background-color: white;
+	display: inline-block;
+	width: 60px;
+	height: 25px;
+	border: 1px solid #4CAF50;
+	border-radius: 2px;
+	color: #4CAF50;
+}
+
+
+/*----------music part style---end-------------*/
+
+
+/*-----------page controller---start-----------
+
+.title_style_show {
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.title_style_hidden {
+	display: none;
+}
+
+.body_style_show {
+	display: block;
+	overflow-y: hidden;
+}
+.body_style_hidden {
+	display: none;
+}
+*/
+
+.db_show {
+	display: block;
+}
+
+.db_hide {
+	display: none;
+}
+
+.music_show {
+	display: block;
+}
+
+.music_hide {
+	display: none;
+}
+
+
+/*-----------page controller---end--------*/
